@@ -46,7 +46,7 @@ else {
             return num2,'number tow is samll';
         }
         else {
-            return num3,'number three is smal;';
+            return num3,'number three is smal;
         }
     }
     let num1 = 485;
@@ -64,3 +64,32 @@ else {
     let max = Math.max(num1,num2,num3);
     console.log('big number is ',max);
      */
+
+    
+    // if(num1>num2 && num1 > num3){
+    //     console.log('number one is big ');
+    // }
+    // else if(num2 >num1 && num2 > num3){
+    //     console.log('number two is big');
+    // }
+    //  else {
+    //     console.log('three is big');
+    //  }
+
+function getsmallnumber(num1 ,num2,num3){
+    if(num1<num2 &&num1<num3){
+        return num1 ,'number is small';
+    }
+    else if(num2 <num1 && num2<num3){
+        return num2 ,'numbet two is small';
+    }
+    else {
+        return num3, 'number three is small';
+    }
+}
+   let num1 = 85484;
+    let num2= 9559;
+    let num3 = 86496;
+
+    result = getsmallnumber( num1,num2,num3);
+    console.log(result);

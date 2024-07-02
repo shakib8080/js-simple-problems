@@ -6,9 +6,9 @@
 
 // Math.ceil()
 
-let number = 5.24895;
-let result = Math.ceil(number);
-console.log(result);
+// let number = 5.24895;
+// let result = Math.ceil(number);
+// console.log(result);
 
 // Math.floor()
 
@@ -49,5 +49,6 @@ console.log(result);
 //     let output = Math.random()*6;
 //     let round = Math.round(output);
 //     console.log(round);
-//  }
- 
+//  
+
+
