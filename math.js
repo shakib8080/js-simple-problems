@@ -6,9 +6,9 @@
 
 // Math.ceil()
 
-// let number = 5.84895;
-// let result = Math.ceil(number);
-// console.log(result);
+let number = 5.24895;
+let result = Math.ceil(number);
+console.log(result);
 
 // Math.floor()
 
